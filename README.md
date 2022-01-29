@@ -7,6 +7,12 @@
 git@github.com:zxforchid/DACNet.git
 ```
 
+## Architecture
+![DACNet architecture](figures/architecture.jpg)
+
+## Quantitative Comparison
+![Quantitative Comparison](figures/quan.jpg)
+
 ## Citation
 ```
 @article{zhou2021dense,
