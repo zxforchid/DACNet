@@ -6,7 +6,7 @@
 ```
 git@github.com:zxforchid/DACNet.git
 ```
-We also provide the predicted saliency maps ([GoogleDrive](https://drive.google.com/drive/folders/14jz1YETGpQBVmqMHX9JEDj65kwTNsbxN?usp=sharing) or [baidu](https://pan.baidu.com/s/18H7ORxx9BuxyoCOGxQaurg) extraction code: mzyj.)
+We also provide the trained model and predicted saliency maps ([GoogleDrive](https://drive.google.com/drive/folders/14jz1YETGpQBVmqMHX9JEDj65kwTNsbxN?usp=sharing) or [baidu](https://pan.baidu.com/s/18H7ORxx9BuxyoCOGxQaurg) extraction code: mzyj.)
 
 ## Architecture
 ![DACNet architecture](figures/architecture.jpg)
