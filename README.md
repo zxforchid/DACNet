@@ -13,6 +13,9 @@ git@github.com:zxforchid/DACNet.git
 ## Quantitative Comparison
 ![Quantitative Comparison](figures/quan.jpg)
 
+## Qualitative Comparison
+![Qualitative Comparison](figures/qual.jpg)
+
 ## Citation
 ```
 @article{zhou2021dense,
