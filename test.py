@@ -40,7 +40,7 @@ img_name_list = glob.glob(image_dir + '*.bmp')
 test_salobj_dataset = SalObjDataset(img_name_list = img_name_list, lbl_name_list = [],transform=transforms.Compose([Rescale(256),ToTensor(flag=0)]))
 test_salobj_dataloader = DataLoader(test_salobj_dataset, batch_size=1,shuffle=False)
 
-net = DACNet()
+net = DACNet(3,1)
 net.load_state_dict(torch.load(model_dir))
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 net.to(device)
