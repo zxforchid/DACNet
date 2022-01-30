@@ -74,7 +74,7 @@ salobj_dataset = SalObjDataset(
         ToTensor(flag=0)]))
 salobj_dataloader = DataLoader(salobj_dataset, batch_size=batch_size_train, shuffle=True,num_workers=4)
 
-net = DACNet()
+net = DACNet(3,1)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 net.to(device)
 
